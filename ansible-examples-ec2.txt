@@ -1,0 +1,186 @@
+- name: start an instance type c5.large 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: c5.large
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type c5n.large 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: c5n.large
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type c5.4xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: c5.4xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type c5.12xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: c5.12xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type c5.18xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: c5.18xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type m5.xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: m5.xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type m5.2xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: m5.2xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type m5.4xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: m5.4xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type m5.8xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: m5.8xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type m5.12xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: m5.12xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type m5.16xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: m5.16xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type m5.24xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: m5.24xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type t2.micro
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: t2.micro
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type t2.small
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: t2.small
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type t2.medium
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: t2.medium
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type t2.large 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: t2.large
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
+
+- name: start an instance type t2.xlarge 
+  amazon.aws.ec2_instance:
+    name: "public-compute-instance"
+    key_name: "prod-ssh-key"
+    vpc_subnet_id: subnet-5ca1ab1e
+    instance_type: t2.xlarge
+    security_group: default
+    network:
+      assign_public_ip: true
+    image_id: ami-123456
